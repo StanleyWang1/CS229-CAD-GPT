@@ -9,6 +9,8 @@
 - If you are getting a "OCP not found", run:
     conda install -c conda-forge -c cadquery ocp
     (this takes forever...)
+- Need this for STEP import
+    conda install -c conda-forge pythonocc-core=7.7.2
 - Might also need (for Stanley's Apple Silicon Mac):
     pip install multimethod
     pip install typish
